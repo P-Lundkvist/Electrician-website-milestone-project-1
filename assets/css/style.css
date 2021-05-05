@@ -2,3 +2,31 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+/* NAVIGATION */
+
+.navbar {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .25);
+  border: 0;
+}
+
+.navbar .navbar-brand {
+font-family: "Exo2", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar .navbar-toggler {
+  border: 0;
+}
