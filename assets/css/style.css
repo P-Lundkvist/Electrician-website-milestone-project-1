@@ -8,6 +8,7 @@ body {
 .navbar {
   margin-bottom: 0;
   width: 100%;
+  background-color: #000;
   background-color: rgba(0, 0, 0, .25);
   border: 0;
 }
@@ -29,4 +30,46 @@ font-family: "Exo2", sans-serif;
 
 .navbar .navbar-toggler {
   border: 0;
+}
+
+.navbar .navbar-nav a {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* NAVIGATION - SOCIAL MEDIA ICONS */
+
+.icon-styling-facebook {
+  font-size: 1rem;
+  color: #4267B2;
+}
+
+.icon-styling-twitter {
+  font-size: 1rem;
+  color: #1DA1F2;
+}
+
+.icon-styling-instagram {
+  font-size: 1rem;
+  color: #833AB4;
+}
+
+.icon-styling-linkedin {
+  font-size: 1rem;
+  color: #2867B2;
+}
+
+.icon-styling-github {
+  font-size: 1rem;
+  color: #4078c0;
+}
+
+.icon-styling-youtube {
+  font-size: 1rem;
+  color: #FF0000;
+}
+
+.icon-styling-rss {
+  font-size: 1rem;
+  color: #ee802f;
 }
