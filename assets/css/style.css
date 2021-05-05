@@ -4,7 +4,6 @@ body {
 }
 
 /* NAVIGATION */
-
 .navbar {
   margin-bottom: 0;
   width: 100%;
@@ -14,7 +13,7 @@ body {
 }
 
 .navbar .navbar-brand {
-font-family: "Exo2", sans-serif;
+  font-family: "Exo2", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -38,7 +37,6 @@ font-family: "Exo2", sans-serif;
 }
 
 /* NAVIGATION - SOCIAL MEDIA ICONS */
-
 .icon-styling-facebook {
   font-size: 1rem;
   color: #4267B2;
@@ -72,4 +70,57 @@ font-family: "Exo2", sans-serif;
 .icon-styling-rss {
   font-size: 1rem;
   color: #ee802f;
+}
+
+/* Containers */
+.call-to-action-section {
+  height: 100vh;
+  background: url('../images/electrician-lamp-background.jpg') no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding-top: 250px;
+}
+
+.call-to-action-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.call-to-action-header {
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+/* Buttons */
+.btn {
+  margin: 5px 20px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #19985d;
+}
+
+.section-divider {
+  width: 75%;
+  border: 0;
+  background-color: #444;
+}
+
+.section-divider-yellow {
+  background-color: #c39b22;
+  height: 3px !important;
+  opacity: 1;
 }
