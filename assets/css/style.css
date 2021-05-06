@@ -200,3 +200,9 @@ body {
   font-size: 1rem;
   color: #ee802f;
 }
+/* owl  */
+
+.testimonial-h4 {
+  text-align: center;
+  padding-top: 10px;
+}
