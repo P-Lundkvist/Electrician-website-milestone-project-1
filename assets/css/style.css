@@ -32,11 +32,133 @@ body {
 }
 
 .navbar .navbar-nav a {
-  font-weight: 500;
   font-size: 20px;
+  font-weight: bold;
 }
 
-/* NAVIGATION - SOCIAL MEDIA ICONS */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFD700;
+}
+
+/* Containers */
+.call-to-action-section {
+  height: 100vh;
+  background: url(../images/electrician-lamp-background.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  /* padding-top: 250px; */
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.call-to-action-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.call-to-action-header {
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+/* Buttons */
+.btn {
+  margin: 5px 20px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #19985d;
+}
+
+.divider-yellow {
+  width: 75%;
+  border: 0;
+  background-color: #ffe400;
+  height: 3px !important;
+  opacity: 1;
+}
+
+/* ABOUT US SECTION  */
+.jumbotron {
+  padding: 10rem 0 0 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.about-us-section {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  position: relative;
+  /* padding-top: 250px; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-us-header {
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.divider-gold {
+  width: 75%;
+  border: 0;
+  background-color: #FFD700;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-blue {
+  width: 75%;
+  border: 0;
+  background-color: cornflowerblue;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.lead {
+  margin: 30px 0;
+}
+
+/* SERVICES SECTION  */
+.services-section {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  position: relative;
+  /* padding-top: 250px; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services-header {
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+/* SOCIAL MEDIA ICONS */
 .icon-styling-facebook {
   font-size: 1rem;
   color: #4267B2;
@@ -72,55 +194,77 @@ body {
   color: #ee802f;
 }
 
-/* Containers */
-.call-to-action-section {
-  height: 100vh;
-  background: url('../images/electrician-lamp-background.jpg') no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  position: relative;
-  padding-top: 250px;
+.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
 }
 
-.call-to-action-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #fff;
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD
 }
 
-.call-to-action-header {
-  font-weight: bold;
-  margin-top: 30px;
-  color: white;
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #1E88E5 !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 50px !important
 }
 
-/* Buttons */
-.btn {
-  margin: 5px 20px;
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #0D47A1 !important;
+    background-color: transparent !important
 }
 
-.btn a {
-  color: #fff;
-  text-decoration: none;
+.owl-dots {
+    display: none
 }
 
-.btn-secondary {
-  background-color: #19985d;
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
 }
 
-.section-divider {
-  width: 75%;
-  border: 0;
-  background-color: #444;
+.item {
+    display: none
 }
 
-.section-divider-yellow {
-  background-color: #c39b22;
-  height: 3px !important;
-  opacity: 1;
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
 }
