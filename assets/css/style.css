@@ -218,6 +218,11 @@ width: 30%
   margin: 0;
 }
 
+.project-images {
+  height: 225px;
+  width: 100%;
+}
+
 /* FOOTER SECTION  */
 .footer-nav {
   display: flex;
