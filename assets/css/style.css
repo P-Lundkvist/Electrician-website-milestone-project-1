@@ -48,9 +48,6 @@ body {
 .call-to-action-section {
   height: 100vh;
   background: url(../images/electrician-lamp-background.jpg) no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   display: flex;
   position: relative;
