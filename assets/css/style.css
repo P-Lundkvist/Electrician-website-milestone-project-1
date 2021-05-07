@@ -128,9 +128,9 @@ width: 30%
   font-weight: bold;
   color: #000;
   text-align: center;
-  margin: 30px 0 30px 0;
+  margin: 100px 0 10px 0;
 }
-
+/* DIVIDERS  */
 .divider-gold {
   width: 75%;
   border: 0;
@@ -142,7 +142,23 @@ width: 30%
 .divider-blue {
   width: 75%;
   border: 0;
-  background-color: cornflowerblue;
+  background-color: #6495ed;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-red {
+  width: 75%;
+  border: 0;
+  background-color: #dc3545;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-purple {
+  width: 75%;
+  border: 0;
+  background-color: #7952b3;
   height: 3px !important;
   opacity: 1;
 }
@@ -167,15 +183,35 @@ width: 30%
   font-weight: bold;
   color: #000;
   text-align: center;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 10px 0;
 }
+
+/* TESTIMONIALS SECTION  */
 
 .testimonials-header {
   font-weight: bold;
   color: #000;
   text-align: center;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 10px 0;
 }
+
+.testimonial-h4 {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 50px;
+  margin: 0;
+}
+
+.testimonial-p {
+  margin: 20px 0 0 0;
+}
+/* PROJECTS SECTION  */
+.projects-h4 {
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+
 
 /* SOCIAL MEDIA ICONS */
 .icon-styling-facebook {
@@ -211,10 +247,4 @@ width: 30%
 .icon-styling-rss {
   font-size: 1rem;
   color: #ee802f;
-}
-/* owl  */
-
-.testimonial-h4 {
-  text-align: center;
-  padding-top: 10px;
 }
