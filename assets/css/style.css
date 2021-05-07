@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #FFD700;
+  color: #FFD700;
 }
 
 /* Containers */
@@ -85,6 +85,7 @@ body {
 .btn-secondary {
   background-color: #19985d;
 }
+
 /* NOTE:
 .btn-lg {
 width: 30%
@@ -130,6 +131,7 @@ width: 30%
   text-align: center;
   margin: 100px 0 10px 0;
 }
+
 /* DIVIDERS  */
 .divider-gold {
   width: 75%;
@@ -187,7 +189,6 @@ width: 30%
 }
 
 /* TESTIMONIALS SECTION  */
-
 .testimonials-header {
   font-weight: bold;
   color: #000;
@@ -202,9 +203,14 @@ width: 30%
   margin: 0;
 }
 
+.telephone-h3 {
+  text-align: center;
+}
+
 .testimonial-p {
   margin: 20px 0 0 0;
 }
+
 /* PROJECTS SECTION  */
 .projects-h4 {
   text-align: center;
@@ -212,39 +218,100 @@ width: 30%
   margin: 0;
 }
 
+/* FOOTER SECTION  */
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer-link {
+  display: block;
+  padding: 0 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link-footer {
+  padding: 0 5px;
+}
+
+/* COPYRIGHT SECTION  */
+.copyright-section {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+}
 
 /* SOCIAL MEDIA ICONS */
 .icon-styling-facebook {
-  font-size: 1rem;
-  color: #4267B2;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-styling-facebook:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
 }
 
 .icon-styling-twitter {
-  font-size: 1rem;
-  color: #1DA1F2;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-styling-twitter:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
 }
 
 .icon-styling-instagram {
-  font-size: 1rem;
-  color: #833AB4;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-styling-instagram:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
 }
 
 .icon-styling-linkedin {
-  font-size: 1rem;
-  color: #2867B2;
+  font-size: 1.5rem;
+  color: #fff;
 }
 
-.icon-styling-github {
-  font-size: 1rem;
-  color: #4078c0;
+.icon-styling-linkedin:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
+}
+
+.icon-styling-pinterest {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-styling-pinterest:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
 }
 
 .icon-styling-youtube {
-  font-size: 1rem;
-  color: #FF0000;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-styling-youtube:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
 }
 
 .icon-styling-rss {
-  font-size: 1rem;
-  color: #ee802f;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-styling-rss:hover {
+  font-size: 1.5rem;
+  color: #FFD700;
 }
