@@ -75,6 +75,8 @@ The Power⚡Pro website is designed and formed so that customers looking to hire
             - GitHub is used to store the projects code after being pushed from Git.
         1. [Atom:](https://atom.io/)
             - The Atom editor to work effectively.
+        1. [techsini.com:](https://techsini.com/multi-mockup/)
+            - Generating MockUp image for most devices.
         1. [Balsamiq:](https://balsamiq.com/)
             - Balsamiq was used to create the [Wireframe for Desktops](https://github.com/P-Lundkvist/Electrician-website-milestone-project-1/blob/main/assets/wireframes/Electrician%20wireframe.pdf) and also the [Wireframe for Mobile](https://github.com/P-Lundkvist/Electrician-website-milestone-project-1/blob/main/assets/wireframes/Electrician%20mobile%20wireframe.pdf) during the design process.
 
@@ -197,6 +199,8 @@ The Power⚡Pro website is designed and formed so that customers looking to hire
         ### Code
 
         -   The Carousel used in testimonials section got it's code from [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
+
+        -   The Back to top button used in testimonials section got it's code from [MDBootstrap.com](https://mdbootstrap.com/docs/standard/extended/back-to-top/)
 
         -   Bootstrap Library used throughout the project mainly to make site responsive and using the Bootstrap Grid System and nice css code. [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 

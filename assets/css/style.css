@@ -1,6 +1,15 @@
+/* GENERAL TAGS  */
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+}
+
+.section-header {
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 0 0 10px 0;
 }
 
 /* NAVIGATION */
@@ -44,14 +53,13 @@ body {
   color: #FFD700;
 }
 
-/* Containers */
+/* CALL TO ACTION SECTION */
 .call-to-action-section {
   height: 100vh;
   background: url(../images/electrician-lamp-background.jpg) no-repeat bottom right fixed;
   background-size: cover;
   display: flex;
   position: relative;
-  /* padding-top: 250px; */
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
@@ -61,47 +69,6 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   color: #fff;
-}
-
-.call-to-action-header {
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-}
-
-/* Buttons */
-.btn {
-  margin: 5px 20px;
-}
-
-.btn a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.btn-secondary {
-  background-color: #19985d;
-}
-
-/* NOTE:
-.btn-lg {
-width: 30%
-}
-*/
-.divider-yellow {
-  width: 75%;
-  border: 0;
-  background-color: #ffe400;
-  height: 3px !important;
-  opacity: 1;
-}
-
-.divider-green {
-  width: 75%;
-  border: 0;
-  background-color: #19985d;
-  height: 3px !important;
-  opacity: 1;
 }
 
 /* ABOUT US SECTION  */
@@ -122,50 +89,6 @@ width: 30%
   flex-direction: column;
 }
 
-.about-us-header {
-  font-weight: bold;
-  color: #000;
-  text-align: center;
-  margin: 100px 0 10px 0;
-}
-
-/* DIVIDERS  */
-.divider-gold {
-  width: 75%;
-  border: 0;
-  background-color: #FFD700;
-  height: 3px !important;
-  opacity: 1;
-}
-
-.divider-blue {
-  width: 75%;
-  border: 0;
-  background-color: #6495ed;
-  height: 3px !important;
-  opacity: 1;
-}
-
-.divider-red {
-  width: 75%;
-  border: 0;
-  background-color: #dc3545;
-  height: 3px !important;
-  opacity: 1;
-}
-
-.divider-purple {
-  width: 75%;
-  border: 0;
-  background-color: #7952b3;
-  height: 3px !important;
-  opacity: 1;
-}
-
-.lead {
-  margin: 30px 0;
-}
-
 /* SERVICES SECTION  */
 .services-section {
   background-color: #000;
@@ -178,30 +101,18 @@ width: 30%
   flex-direction: column;
 }
 
-.services-header {
-  font-weight: bold;
-  color: #000;
-  text-align: center;
-  margin: 30px 0 10px 0;
+.services-icons {
+  font-size: 2rem;
+  color: #6495ed;
 }
 
 /* TESTIMONIALS SECTION  */
-.testimonials-header {
-  font-weight: bold;
-  color: #000;
-  text-align: center;
-  margin: 30px 0 10px 0;
-}
 
 .testimonial-h4 {
   text-align: center;
   padding-top: 20px;
   padding-right: 50px;
   margin: 0;
-}
-
-.telephone-h3 {
-  text-align: center;
 }
 
 .testimonial-p {
@@ -245,6 +156,89 @@ width: 30%
 .copyright-section {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px 0;
+}
+.bg-black {
+background-color: #000;
+}
+
+.copyright-text {
+font-size: 1rem;
+font-weight: bold;
+margin: 0;
+padding: 10px 0;
+}
+
+/* DIVIDERS START */
+
+.divider-gold {
+  width: 75%;
+  border: 0;
+  background-color: #FFD700;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-blue {
+  width: 75%;
+  border: 0;
+  background-color: #6495ed;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-red {
+  width: 75%;
+  border: 0;
+  background-color: #dc3545;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-purple {
+  width: 75%;
+  border: 0;
+  background-color: #7952b3;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-yellow {
+  width: 75%;
+  border: 0;
+  background-color: #ffe400;
+  height: 3px !important;
+  opacity: 1;
+}
+
+.divider-green {
+  width: 75%;
+  border: 0;
+  background-color: #19985d;
+  height: 3px !important;
+  opacity: 1;
+}
+
+/* DIVIDERS END */
+
+/* Buttons */
+.btn {
+  margin: 5px 20px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #19985d;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
 
 /* SOCIAL MEDIA ICONS */
